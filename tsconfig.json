@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "outDir": "dist",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "moduleResolution": "node",
+  "baseUrl": ".",
+  "paths": {
+    "*": ["*", "generated/*"]
+  },
+  "files": ["index.ts"],
+  "include": ["src/**/*", "tests"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
